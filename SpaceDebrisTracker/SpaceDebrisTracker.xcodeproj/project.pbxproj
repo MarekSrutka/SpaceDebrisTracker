@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78725CEB2BC83C83002F9DE9 /* SpaceDebrisTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78725CEA2BC83C83002F9DE9 /* SpaceDebrisTrackerApp.swift */; };
+		78725CEF2BC83C84002F9DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78725CEE2BC83C84002F9DE9 /* Assets.xcassets */; };
+		78725CF22BC83C84002F9DE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78725CF12BC83C84002F9DE9 /* Preview Assets.xcassets */; };
+		78725CF92BC83F4A002F9DE9 /* MeteoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78725CF82BC83F4A002F9DE9 /* MeteoriteModel.swift */; };
+		78725CFB2BC9CF7B002F9DE9 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78725CFA2BC9CF7B002F9DE9 /* NetworkService.swift */; };
+		78725CFD2BC9D0CB002F9DE9 /* MeteoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78725CFC2BC9D0CB002F9DE9 /* MeteoriteViewModel.swift */; };
+		78725D012BC9E3A7002F9DE9 /* MeteoriteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78725D002BC9E3A7002F9DE9 /* MeteoriteListView.swift */; };
+		78725D032BC9F67D002F9DE9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78725D022BC9F67D002F9DE9 /* MapView.swift */; };
+		78725D052BCAC9D0002F9DE9 /* MeteoriteListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78725D042BCAC9D0002F9DE9 /* MeteoriteListRow.swift */; };
+		78725D072BCC5C2A002F9DE9 /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78725D062BCC5C2A002F9DE9 /* NavigationRouter.swift */; };
+		78725D092BCC5C8A002F9DE9 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78725D082BCC5C8A002F9DE9 /* Route.swift */; };
+		78725D0B2BCC649E002F9DE9 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78725D0A2BCC649E002F9DE9 /* MapViewModel.swift */; };
+		7884261F2BCD2D13004A3765 /* GeoLocagtionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7884261E2BCD2D13004A3765 /* GeoLocagtionService.swift */; };
+		788426212BCD303D004A3765 /* MapModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788426202BCD303D004A3765 /* MapModalView.swift */; };
+		788426232BCD3560004A3765 /* MapModalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788426222BCD3560004A3765 /* MapModalRow.swift */; };
+		788426252BCD9BEF004A3765 /* MeteoriteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788426242BCD9BEF004A3765 /* MeteoriteList.swift */; };
+		788426282BCD9C5B004A3765 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788426272BCD9C5B004A3765 /* EmptyStateView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		78725CE72BC83C83002F9DE9 /* SpaceDebrisTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceDebrisTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78725CEA2BC83C83002F9DE9 /* SpaceDebrisTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceDebrisTrackerApp.swift; sourceTree = "<group>"; };
+		78725CEE2BC83C84002F9DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78725CF12BC83C84002F9DE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78725CF82BC83F4A002F9DE9 /* MeteoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoriteModel.swift; sourceTree = "<group>"; };
+		78725CFA2BC9CF7B002F9DE9 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		78725CFC2BC9D0CB002F9DE9 /* MeteoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoriteViewModel.swift; sourceTree = "<group>"; };
+		78725D002BC9E3A7002F9DE9 /* MeteoriteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoriteListView.swift; sourceTree = "<group>"; };
+		78725D022BC9F67D002F9DE9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		78725D042BCAC9D0002F9DE9 /* MeteoriteListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoriteListRow.swift; sourceTree = "<group>"; };
+		78725D062BCC5C2A002F9DE9 /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
+		78725D082BCC5C8A002F9DE9 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		78725D0A2BCC649E002F9DE9 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		7884261E2BCD2D13004A3765 /* GeoLocagtionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoLocagtionService.swift; sourceTree = "<group>"; };
+		788426202BCD303D004A3765 /* MapModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModalView.swift; sourceTree = "<group>"; };
+		788426222BCD3560004A3765 /* MapModalRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModalRow.swift; sourceTree = "<group>"; };
+		788426242BCD9BEF004A3765 /* MeteoriteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoriteList.swift; sourceTree = "<group>"; };
+		788426272BCD9C5B004A3765 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78725CE42BC83C83002F9DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78725CDE2BC83C83002F9DE9 = {
+			isa = PBXGroup;
+			children = (
+				78725CE92BC83C83002F9DE9 /* SpaceDebrisTracker */,
+				78725CE82BC83C83002F9DE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78725CE82BC83C83002F9DE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78725CE72BC83C83002F9DE9 /* SpaceDebrisTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78725CE92BC83C83002F9DE9 /* SpaceDebrisTracker */ = {
+			isa = PBXGroup;
+			children = (
+				78725D0E2BCC6E64002F9DE9 /* Route */,
+				78725D0F2BCC6E7C002F9DE9 /* Screens */,
+				78725D0C2BCC6E41002F9DE9 /* Services */,
+				78725D172BCC6F20002F9DE9 /* Supports */,
+			);
+			path = SpaceDebrisTracker;
+			sourceTree = "<group>";
+		};
+		78725CF02BC83C84002F9DE9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				78725CF12BC83C84002F9DE9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		78725D0C2BCC6E41002F9DE9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				78725CFA2BC9CF7B002F9DE9 /* NetworkService.swift */,
+				7884261E2BCD2D13004A3765 /* GeoLocagtionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		78725D0E2BCC6E64002F9DE9 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				78725D062BCC5C2A002F9DE9 /* NavigationRouter.swift */,
+				78725D082BCC5C8A002F9DE9 /* Route.swift */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		78725D0F2BCC6E7C002F9DE9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				788426262BCD9C2E004A3765 /* EmptyView */,
+				78725D182BCC6F3C002F9DE9 /* EntryApp */,
+				78725D142BCC6EFA002F9DE9 /* MapView */,
+				78725D102BCC6E84002F9DE9 /* MeteoriteView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		78725D102BCC6E84002F9DE9 /* MeteoriteView */ = {
+			isa = PBXGroup;
+			children = (
+				78725D112BCC6E93002F9DE9 /* Model */,
+				78725D122BCC6E9B002F9DE9 /* ViewModel */,
+				78725D132BCC6ED5002F9DE9 /* Views */,
+			);
+			path = MeteoriteView;
+			sourceTree = "<group>";
+		};
+		78725D112BCC6E93002F9DE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78725CF82BC83F4A002F9DE9 /* MeteoriteModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78725D122BCC6E9B002F9DE9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				78725CFC2BC9D0CB002F9DE9 /* MeteoriteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		78725D132BCC6ED5002F9DE9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				78725D042BCAC9D0002F9DE9 /* MeteoriteListRow.swift */,
+				78725D002BC9E3A7002F9DE9 /* MeteoriteListView.swift */,
+				788426242BCD9BEF004A3765 /* MeteoriteList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		78725D142BCC6EFA002F9DE9 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				78725D152BCC6F00002F9DE9 /* ViewModel */,
+				78725D162BCC6F0B002F9DE9 /* Views */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		78725D152BCC6F00002F9DE9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				78725D0A2BCC649E002F9DE9 /* MapViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		78725D162BCC6F0B002F9DE9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				788426222BCD3560004A3765 /* MapModalRow.swift */,
+				788426202BCD303D004A3765 /* MapModalView.swift */,
+				78725D022BC9F67D002F9DE9 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		78725D172BCC6F20002F9DE9 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				78725CF02BC83C84002F9DE9 /* Preview Content */,
+				78725CEE2BC83C84002F9DE9 /* Assets.xcassets */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		78725D182BCC6F3C002F9DE9 /* EntryApp */ = {
+			isa = PBXGroup;
+			children = (
+				78725CEA2BC83C83002F9DE9 /* SpaceDebrisTrackerApp.swift */,
+			);
+			path = EntryApp;
+			sourceTree = "<group>";
+		};
+		788426262BCD9C2E004A3765 /* EmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				788426272BCD9C5B004A3765 /* EmptyStateView.swift */,
+			);
+			path = EmptyView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78725CE62BC83C83002F9DE9 /* SpaceDebrisTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78725CF52BC83C84002F9DE9 /* Build configuration list for PBXNativeTarget "SpaceDebrisTracker" */;
+			buildPhases = (
+				78725CE32BC83C83002F9DE9 /* Sources */,
+				78725CE42BC83C83002F9DE9 /* Frameworks */,
+				78725CE52BC83C83002F9DE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceDebrisTracker;
+			productName = SpaceDebrisTracker;
+			productReference = 78725CE72BC83C83002F9DE9 /* SpaceDebrisTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78725CDF2BC83C83002F9DE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					78725CE62BC83C83002F9DE9 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 78725CE22BC83C83002F9DE9 /* Build configuration list for PBXProject "SpaceDebrisTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78725CDE2BC83C83002F9DE9;
+			productRefGroup = 78725CE82BC83C83002F9DE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78725CE62BC83C83002F9DE9 /* SpaceDebrisTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78725CE52BC83C83002F9DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78725CF22BC83C84002F9DE9 /* Preview Assets.xcassets in Resources */,
+				78725CEF2BC83C84002F9DE9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78725CE32BC83C83002F9DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78725D092BCC5C8A002F9DE9 /* Route.swift in Sources */,
+				78725D0B2BCC649E002F9DE9 /* MapViewModel.swift in Sources */,
+				78725CF92BC83F4A002F9DE9 /* MeteoriteModel.swift in Sources */,
+				788426232BCD3560004A3765 /* MapModalRow.swift in Sources */,
+				78725D052BCAC9D0002F9DE9 /* MeteoriteListRow.swift in Sources */,
+				78725D032BC9F67D002F9DE9 /* MapView.swift in Sources */,
+				788426252BCD9BEF004A3765 /* MeteoriteList.swift in Sources */,
+				78725D012BC9E3A7002F9DE9 /* MeteoriteListView.swift in Sources */,
+				788426212BCD303D004A3765 /* MapModalView.swift in Sources */,
+				78725CFD2BC9D0CB002F9DE9 /* MeteoriteViewModel.swift in Sources */,
+				7884261F2BCD2D13004A3765 /* GeoLocagtionService.swift in Sources */,
+				78725CFB2BC9CF7B002F9DE9 /* NetworkService.swift in Sources */,
+				788426282BCD9C5B004A3765 /* EmptyStateView.swift in Sources */,
+				78725CEB2BC83C83002F9DE9 /* SpaceDebrisTrackerApp.swift in Sources */,
+				78725D072BCC5C2A002F9DE9 /* NavigationRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		78725CF32BC83C84002F9DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78725CF42BC83C84002F9DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78725CF62BC83C84002F9DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpaceDebrisTracker/Supports/Preview Content\"";
+				DEVELOPMENT_TEAM = K3XWRTF242;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SpaceDebrisTracker;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mareksrutka.SpaceDebrisTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		78725CF72BC83C84002F9DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpaceDebrisTracker/Supports/Preview Content\"";
+				DEVELOPMENT_TEAM = K3XWRTF242;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SpaceDebrisTracker;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mareksrutka.SpaceDebrisTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78725CE22BC83C83002F9DE9 /* Build configuration list for PBXProject "SpaceDebrisTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78725CF32BC83C84002F9DE9 /* Debug */,
+				78725CF42BC83C84002F9DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78725CF52BC83C84002F9DE9 /* Build configuration list for PBXNativeTarget "SpaceDebrisTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78725CF62BC83C84002F9DE9 /* Debug */,
+				78725CF72BC83C84002F9DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78725CDF2BC83C83002F9DE9 /* Project object */;
+}
